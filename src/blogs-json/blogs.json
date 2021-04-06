@@ -1,0 +1,13 @@
+{
+    "Sid": "Semaphores",
+    "posts": [
+        {
+            "id": 1,
+            "title": "Online diary",
+            "content": "A place where anyone could write their thoughts and make sure that I read them. :p",
+            "links": [
+                {"key": "Project link", "value": "https://diary.raptik.tk"}
+            ]
+        }
+    ]
+}

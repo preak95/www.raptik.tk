@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Overwriting navbar */
+nav {
+  background-color: #022449;
+}
+
+.tkl-logo {
+  font-weight: 900;
+  font-family: Courier, monospace;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-links {
+  padding: 2px;
+  border: 2px;
+}
+
+/* CSS for the homepage */
+.type-space {
+  background-color: #174869;
+  border-top: 0;
+  font-family: Courier, monospace;
+  color: #ffffff;
+  font-size: large;
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body{
+  background-color: #174869;  
+}
+
+body{
+  background: #000;
+  padding-top: 10px;
+} 
+
+.empty-head {
+  height: 50px;
+}
+
+p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
